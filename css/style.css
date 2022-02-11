@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+section {
+  width: 600px;
+  margin: 200px auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 15px #eee;
+          box-shadow: 0 0 15px #eee;
+}
+
+section .sq-tab ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .sq-tab ul li {
+  list-style: none;
+  display: block;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+section .sq-tab ul li a {
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+section .sq-tab ul li a.active {
+  border-bottom: none;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
+}
+
+.sq-content .tab-content {
+  padding: 10px 15px;
+  margin-top: 10px;
+  display: none;
+}
+
+.sq-content .tab-content.active {
+  display: block;
+}
+
+.sq-content .tab-content h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.sq-content .tab-content p {
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #333;
+}
+/*# sourceMappingURL=style.css.map */
